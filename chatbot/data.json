@@ -1,0 +1,129 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon"
+            ],
+            "responses": [
+                "Hi, how can I assist you?",
+                "Hello, how can I help you with your admission process?",
+                "Hey there! Do you have any questions about the admission process?",
+                "Good morning/afternoon! How can I help you with your admission process?"
+            ]
+        },
+        {
+            "tag": "admission_requirements",
+            "patterns": [
+                "What are the admission requirements?",
+                "What are the requirements for admission?",
+                "What do I need to apply for admission?",
+                "What are the admission criteria?"
+            ],
+            "responses": [
+                "To apply for admission, you need to provide your high school transcripts, standardized test scores, and a personal statement. We also consider extracurricular activities and letters of recommendation. Would you like more details about any of these requirements?",
+                "The admission requirements include submitting your high school transcripts, standardized test scores, and a personal statement. We also consider extracurricular activities and letters of recommendation. If you need more information about any of these requirements, I can provide you with the details.",
+                "You will need to provide your high school transcripts, standardized test scores, and a personal statement to apply for admission. We also consider extracurricular activities and letters of recommendation. If you have any questions about these requirements, feel free to ask me."
+            ]
+        },
+        {
+            "tag": "application_deadline",
+            "patterns": [
+                "What is the deadline for submitting my application?",
+                "When is the application deadline?",
+                "When do I need to apply?",
+                "When is the last date to apply?"
+            ],
+            "responses": [
+                "The application deadline is usually in January. However, I would recommend checking the university's website for the exact deadline.",
+                "The deadline for submitting your application is usually in January. However, I suggest you check the university's website for the exact date.",
+                "You need to apply before the January deadline to be considered for admission. Please check the university's website for the exact date."
+            ]
+        },
+        {
+            "tag": "tuition_fee",
+            "patterns": [
+                "How much is the tuition fee?",
+                "What is the cost of tuition?",
+                "How much does it cost to attend this university?",
+                "What is the tuition fee for international students?"
+            ],
+            "responses": [
+                "The tuition fee varies depending on the program you are applying to and whether you are a domestic or international student. Please check the university's website for more information.",
+                "The cost of tuition depends on several factors, such as your program of study and your residency status. For specific details about the tuition fee, I would recommend checking the university's website.",
+                "The tuition fee varies depending on your program of study and your residency status. You can find more information about the cost of attending our university on our website."
+            ]
+        },
+        {
+            "tag": "thank_you",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Great, thank you",
+                "Appreciate it"
+            ],
+            "responses": [
+                "You're welcome! If you have any more questions, feel free to ask me.",
+                "You're welcome! If you need further assistance, don't hesitate to contact me.",
+                "No problem! Let me know if you have any other questions about the admission process.",
+                "You're welcome! It was my pleasure to assist you."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "Bye",
+                "See you later",
+                "Take care"
+            ],
+            "responses": [
+                "Goodbye! Have a great day.",
+                "Bye! Don't hesitate to contact me if you need any further assistance.",
+                "See you later! Let me know if you have any other questions about the admission process.",
+                "Take care! It was nice helping you with your admission queries."
+            ]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [
+                "I don't understand",
+                "Can you repeat that?",
+                "What do you mean?",
+                "I'm confused"
+            ],
+            "responses": [
+                "I'm sorry, I didn't understand your question. Could you please rephrase it?",
+                "I apologize, could you please provide more context or rephrase your question?",
+                "I'm sorry, I didn't catch that. Could you please clarify what you meant?",
+                "I apologize, I'm not sure I understand. Could you please explain your question in more detail?"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Do you know any jokes?",
+                "Joke please",
+                "I want to hear a joke",
+                "Be funny"
+            ],
+            "responses": [
+                "Why did the physics professor break up with the biology professor? There was no chemistry between them.",
+                "Why did the math book look sad? Because it had too many problems.",
+                "What do you get when you cross a snowman and a math teacher? Frosted math lessons.",
+                "Why don't scientists trust atoms? Because they make up everything.",
+                "Why did the professor bring a ladder to class? To reach the highest level of education.",
+                "Why did the biology professor become a stand-up comedian? He had a natural sense of humorus.",
+                "Why did the computer science professor get a virus? He forgot to wash his hands before coding.",
+                "Why did the psychology professor refuse to tell jokes? He was afraid his punchlines might trigger someone.",
+                "Why did the literature professor go to jail? For excessive use of symbolism.",
+                "Why did the philosophy professor fail the ethics exam? Because he stole the answers from his neighbor's conscience."
+            ]
+        }
+    ]
+}
